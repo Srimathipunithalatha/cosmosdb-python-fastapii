@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  python-cosmos-app:
+     image: 'cosmopy.azurecr.io/sam:latest'
+     ports:
+       - '8080:8080'
